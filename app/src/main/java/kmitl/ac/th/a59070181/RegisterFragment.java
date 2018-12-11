@@ -46,15 +46,14 @@ public class RegisterFragment extends Fragment {
                 } else if (ageInt < 10 && ageInt > 80) {
                     Toast.makeText(getActivity(), "Age is must be 10-80 years", Toast.LENGTH_SHORT).show();
                 }else {
-                        createAccount(userIdStr,passwordStr);
+                        createAccount(userIdStr,passwordStr, nameStr, ageInt);
                     }
                 }
 
             });
         }
 
-        public void createAccount(String user,String password){
-            //SQLiteDatabase db = getWritableDatabase();
+        public void createAccount(String user,String password, String nameStr, int ageInt){
 
-    }
+        }
 }

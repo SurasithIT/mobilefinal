@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
             getFragmentManager()
                     .beginTransaction()
                     .replace(R.id.main_view, new LoginFragment())
-                    .addToBackStack(null)
                     .commit();
         }
     }
